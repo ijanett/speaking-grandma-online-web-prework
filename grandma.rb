@@ -10,7 +10,7 @@ def speak_to_grandma(phrase = "Hi Nana, how are you?")
     return "NO, NOT SINCE 1938!"
   elsif phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  else phrase == "HI NANA, HOW ARE YOU?"
+  else phrase == "Hi Nana, how are you?".upcase
     puts "NO, NOT SINCE 1983!"
   end
 end
