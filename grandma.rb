@@ -2,8 +2,16 @@
 def speak_to_grandma(phrase = "Hi Nana, how are you?")
   if phrase == phrase.downcase
     puts "HUH?! SPEAK UP, SONNY!"
+  else phrase == phrase.upcase
+
   end
 
+def speak_to_grandma(phrase = "HI!")
+  if phrase == phrase.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  else phrase == phrase.downcase
+
+  end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
