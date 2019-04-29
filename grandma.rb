@@ -3,6 +3,7 @@ def speak_to_grandma(phrase = "Hi Nana, how are you?")
   if phrase == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "HI!"
+    puts "HUH?! SPEAK UP, SONNY!"
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
